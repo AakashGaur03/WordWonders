@@ -1,0 +1,94 @@
+body {
+  background-image: url(../Images/DictBackground.avif);
+  background-size: 100% 100%;
+}
+
+.btncolor {
+  background: #242f3f;
+  color: white;
+  border-radius: 18px;
+}
+
+#inputValue
+{
+  background: #6d6d6d;
+    font-weight: 500;
+}
+
+.WOTDmean{
+  max-width: 52vw;
+}
+
+.btncolor:hover {
+  border-radius: 18px;
+  border: 1px solid white;
+  background: #242f3f;
+  color: white;
+}
+
+.move {
+  height: 599px;
+  transform: rotateY(0deg);
+  transition: 2s;
+  transform-origin: left;
+}
+
+.aa {
+  min-height: 80vh;
+  border: 2px solid red;
+  position: absolute;
+  top: 0;
+  right: 15%;
+}
+
+.move2 {
+  height: 599px;
+  transform: rotateY(115deg);
+  transition: 2s;
+  transform-origin: left;
+}
+.firstsubdiv {
+  background: #242f3f;
+  max-height: 80vh;
+  min-width: 35vw;
+  max-width: 35vw;
+}
+.audioelement {
+  height: 33px;
+}
+/* .bookopen
+{
+  width: 175px;
+} */
+
+@media (max-width: 500px) {
+  .audioelement {
+    width: 200px;
+  }
+  .fs-5 {
+    font-size: medium !important;
+  }
+}
+
+@media (max-width: 990px) {
+  .firstsubdiv {
+    min-width: 65vw !important;
+    max-width: 65vw !important;
+  }
+  .secondsubdiv {
+    min-width: 65vw !important;
+  }
+}
+
+.secondsubdiv {
+  border: 2px solid #302f5b;
+  background-image: linear-gradient(104deg, black, #d3c6c6);
+  min-height: 80vh;
+  max-height: 80vh;
+  min-width: 35vw;
+  max-width: 35vw;
+}
+
+.displaynone {
+  display: none;
+}
