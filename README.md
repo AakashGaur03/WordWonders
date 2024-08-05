@@ -1,8 +1,17 @@
-WordWonders 📖
+# WordWonders 📖
 
 Welcome to WordWonders, where every word is a treasure waiting to be discovered! Dive into the world of words with our daily "Word of the Day" and explore the depths of language through our intuitive search functionality.
 
-Features 🌟
+Check out the live website: [WordWonders](https://aakashgaur03.github.io/WordWonders/)
+
+# Images
+
+![web view](./Images/Image1.png)
+
+![mobile view](./Images/Image2.png)
+
+## Features 🌟
+
 Word of the Day: Uncover a new word's meaning every day.
 Search Functionality: Look up specific words and unlock their definitions.
 How to Use 🧐
